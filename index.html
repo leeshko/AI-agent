@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: black">
+    <link
+      rel="stylesheet"
+      href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css"
+    />
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+      project-id="villagewellth"
+      agent-id="aee85d01-7831-499c-a8d5-a780b98e1be9"
+      language-code="en"
+      max-query-length="-1"
+    >
+      <df-messenger-chat-bubble chat-title="vwagent">
+      </df-messenger-chat-bubble>
+    </df-messenger>
+    <style>
+      df-messenger {
+        z-index: 999;
+        position: fixed;
+        --df-messenger-font-color: #000;
+        --df-messenger-font-family: Google Sans;
+        --df-messenger-chat-background: #f3f6fc;
+        --df-messenger-message-user-background: #d3e3fd;
+        --df-messenger-message-bot-background: #fff;
+        bottom: 16px;
+        right: 16px;
+      }
+
+      .text-container {
+        width: 50%;
+        padding: 100px;
+        color: #fff;
+        background-color: black;
+      }
+    </style>
+    <div class="text-container">
+      <p>
+        This is an AI agent trained on fictional data that has no connection to
+        reality. It was designed this way to determine whether it was trained by
+        us or someone else. 😊
+        <br /><br />
+        The main information it possesses includes the fact that the Formula 1
+        season is over, the winners were determined by flipping the final
+        standings, and I, Dzmitry Lishko, became the director of Formula 1.
+        <br /><br />
+        The agent's usage license is set to expire at the end of December 2024.
+      </p>
+    </div>
+  </body>
+</html>
